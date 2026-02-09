@@ -2,13 +2,22 @@
 
 This project is a Spring Boot backend system built for the Java Backend Interview Assignment and Reactjs Assessment (Intermediate)
 
+## Setup Instruction
+## Spring Boot Backend (AssessmentApplication)
+  1. Start SQL Server
+  2. mvn clean install
+  3. mvn spring-boot:run
+## Reactjs (google-places-app)
+  1. Start SQL Server
+  2. Run Spring Boot backend (Same with Java Backend Assignment 2025)
+  3. npm install(First Time)
+  4. npm start
+
 ## Database
 Microsoft SQL Server
 Database Name: TESTDB  
-Script:
-  CREATE DATABASE TESTDB;
+Refer to ExecutedSQLScript.sql
 
-  
 # Java Backend Assignment 2025
 ## Tech Stack
 - Java 17
